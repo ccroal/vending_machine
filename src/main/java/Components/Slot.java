@@ -1,23 +1,26 @@
+package Components;
+
+import Components.CodeType;
 import Products.Product;
 
 import java.util.ArrayList;
 
 public class Slot {
 
-    private String code;
+    private CodeType code;
     private int price;
     private ArrayList<Product> product;
     private int capacity;
 
 
-    public Slot(String code, int price){
+    public Slot(CodeType code){
         this.code = code;
-        this.price = price;
+        this.price = 0;
         this.product = new ArrayList<Product>();
         this.capacity = 10;
     }
 
-    public String getCode() {
+    public CodeType getCode() {
         return this.code;
     }
 
@@ -56,4 +59,7 @@ public class Slot {
 
     }
 
+    public void assignPrice(int price) {
+        this.price = price;
+    }
 }

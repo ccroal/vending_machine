@@ -1,3 +1,5 @@
+import Components.CodeType;
+import Components.Slot;
 import Products.ColaProduct;
 import Products.CrispProduct;
 import org.junit.Before;
@@ -13,12 +15,18 @@ public class SlotTest {
     @Before
     public void before(){
         coke = new ColaProduct("Coke");
-        slot = new Slot("A1", 100);
+        slot = new Slot(CodeType.A1);
+        slot.assignPrice(100);
     }
 
     @Test
     public void hasCode() {
-        assertEquals("A1", slot.getCode());
+        assertEquals(CodeType.A1, slot.getCode());
+    }
+
+    @Test
+    public void hasPrice(){
+        assertEquals(100, slot.getPrice());
     }
 
     @Test
