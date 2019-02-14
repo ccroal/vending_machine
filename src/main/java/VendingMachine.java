@@ -1,3 +1,4 @@
+import Coins.Coin;
 import Components.CodeType;
 import Components.CoinInTray;
 import Components.Slot;
@@ -52,10 +53,28 @@ public class VendingMachine {
     }
 
     public void refilEmptySlot(CodeType code, Product product){
-        Slot slotFount = findSlotByCode(code);
+        Slot slotFound = findSlotByCode(code);
 
-        for(int i = 0; i < slotFount.getCapacity(); ++i){
-            slotFount.addProduct(product);
+        for(int i = 0; i < slotFound.getCapacity(); ++i){
+            slotFound.addProduct(product);
         }
     }
+
+    public int findProductPrice(CodeType code){
+        Slot slot = findSlotByCode(code);
+        return slot.getPrice();
+    }
+
+    public int addCoin(Coin coin){
+        int totalInserted= coinInTray.insertCoin(coin);
+        return totalInserted;
+    }
+
+    public int amountStillRequired(CodeType code, Coin coin){
+        int productPrice = findProductPrice(code);
+        int amountStillRequired = productPrice - addCoin(coin);
+        return amountStillRequired;
+    }
+
+
 }

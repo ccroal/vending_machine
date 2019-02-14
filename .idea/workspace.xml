@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68c4fcaf-223b-473e-8ce6-f6658d5a26a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Components/CodeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Components/CoinInTray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CoinInTrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/VendingMachineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Slot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/Slot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SlotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SlotTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Slot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SlotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SlotTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VendingMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VendingMachineTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,7 +29,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4798" />
+          <entry key="JAVA" value="5210" />
           <entry key="Kotlin" value="11" />
         </counts>
       </usages-collector>
@@ -85,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/VendingMachineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="360">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1019#1020#0" expanded="true" />
@@ -99,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/VendingMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+            <state relative-caret-position="113">
+              <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#546#547#0" expanded="true" />
@@ -165,7 +156,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Components/CoinInTray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="-304">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -238,8 +229,8 @@
         <option value="$PROJECT_DIR$/src/main/java/CodeType.java" />
         <option value="$PROJECT_DIR$/src/main/java/Slot.java" />
         <option value="$PROJECT_DIR$/src/test/java/SlotTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VendingMachine.java" />
         <option value="$PROJECT_DIR$/src/test/java/VendingMachineTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/VendingMachine.java" />
       </list>
     </option>
   </component>
@@ -331,7 +322,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550157551740" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550158619299" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -382,9 +373,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_vending_machine - 2019.02.14 at 14h 00m 04s.xml">
-      <configuration name="All in vending_machine" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_vending_machine - 2019.02.14 at 14h 02m 33s.xml">
       <configuration name="All in vending_machine" configurationId="JUnit" />
     </history-entry>
@@ -412,6 +400,9 @@
     <history-entry file="All_in_vending_machine - 2019.02.14 at 15h 13m 47s.xml">
       <configuration name="All in vending_machine" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_vending_machine - 2019.02.14 at 15h 19m 15s.xml">
+      <configuration name="All in vending_machine" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -422,7 +413,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
@@ -430,7 +421,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -629,22 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Components/CoinInTray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Components/CodeType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -694,28 +669,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/VendingMachine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Components/CoinInTray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+        <state relative-caret-position="-304">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/VendingMachineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="360">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1019#1020#0" expanded="true" />
             <element signature="e#1083#1084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/VendingMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
           </folding>
         </state>
       </provider>

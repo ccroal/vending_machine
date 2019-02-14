@@ -63,4 +63,6 @@ public class VendingMachineTest {
         vendingMachine.refilEmptySlot(CodeType.A1, coke);
         assertEquals(10, vendingMachine.getSlot(0).productCount());
     }
+
+
 }
