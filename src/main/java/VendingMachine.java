@@ -66,7 +66,7 @@ public class VendingMachine {
     }
 
     public int addCoin(Coin coin){
-        int totalInserted= coinInTray.insertCoin(coin);
+        int totalInserted = coinInTray.insertCoin(coin);
         return totalInserted;
     }
 

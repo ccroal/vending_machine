@@ -64,5 +64,13 @@ public class CoinInTrayTest {
         assertEquals(100, secondTotal);
         assertEquals(1, coinInTray.countReturnedCoins());
     }
+
+    @Test
+    public void testCanReturnCoins(){
+        coinInTray.insertCoin(poundCoin);
+        coinInTray.insertCoin(poundCoin);
+        coinInTray.returnCoins();
+        assertEquals(2, coinInTray.countReturnedCoins());
+    }
 }
 

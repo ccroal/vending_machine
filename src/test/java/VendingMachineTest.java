@@ -38,6 +38,7 @@ public class VendingMachineTest {
 
         vendingMachine = new VendingMachine();
         vendingMachine.vendSlotsPopulate();
+
     }
 
 
@@ -64,5 +65,9 @@ public class VendingMachineTest {
         assertEquals(10, vendingMachine.getSlot(0).productCount());
     }
 
-
+    @Test
+    public void canGetAmountStillRequired(){
+        vendingMachine.setSlotPrice(CodeType.A1, 100);
+        assertEquals(50, vendingMachine.amountStillRequired(CodeType.A1, fiftyCoin));
+    }
 }

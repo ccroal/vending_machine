@@ -30,9 +30,6 @@ public class CoinInTray {
         return total;
     }
 
-    public void addValidCoin(Coin coin){
-        this.validCoins.add(coin);
-    }
 
     public void checkValidity(Coin coin){
         if (coin.getCoinValue() >= 10){
@@ -46,5 +43,11 @@ public class CoinInTray {
         checkValidity(coin);
         int total = countCoinValue();
         return total;
+    }
+
+    public void returnCoins(){
+        for (Coin coin : this.validCoins){
+            this.returnedCoins.add(coin);
+        }
     }
 }
